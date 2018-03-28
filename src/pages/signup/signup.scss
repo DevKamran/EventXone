@@ -1,0 +1,84 @@
+page-signup {
+
+
+       #signup{
+
+       //background:color($colors,back);
+        background-image: url('/assets/imgs/background.png');
+         background-size: cover;
+
+
+         ion-header{
+           //color:color($colors,heading);
+          background-image: url('/assets/imgs/btnbackground.png');
+         background-size: cover;
+            margin-left: auto;
+		    margin-right: auto;
+		    display: block;	
+
+         }
+
+
+        #logo{
+
+         background-image: url('/assets/imgs/logo.png');
+         //background-size: cover;
+            margin-left: auto;
+		    margin-right: auto;
+		    display: block;
+
+        }
+
+		#btnsignin{
+		   padding:20px;
+            width:50%;
+            
+            background-image: url('/assets/imgs/btnbackground.png');
+         background-size: cover;
+            margin-left: auto;
+		    margin-right: auto;
+		    display: block;	
+		}
+
+		#signinforms{
+          //margin-top:220px;
+          border-radius: 2px;
+          box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		 background:color($colors,dark);
+		}
+
+
+		#mainlogo{
+	      width:50%;
+	      border-radius:25px;
+	      margin-top:2.7rem;
+	      margin-left: auto;
+		    margin-right: auto;
+		    display: block;
+	     }
+
+	     h1{
+	      margin-left: auto;
+		    margin-right: auto;
+		    display: block;
+		    color:color($colors,dark);
+		    text-align:center;
+	     }
+
+	      #paragraph{
+	      margin-left: auto;
+		    margin-right: auto;
+		    display: block;
+		    
+		    text-align:center;
+	     }
+
+	     #innersign{
+	     color:color($colors,heading);
+	     }
+
+
+
+       }
+
+}

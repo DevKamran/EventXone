@@ -1,0 +1,33 @@
+page-welcome {
+
+    #welcome{
+
+     background:color($colors,dark);
+     text-align:center;
+     color:color($colors,black);
+     font-weight:normal;
+     h1{
+       font-size:4.6rem;
+       //margin-top:10.7rem;
+     }
+
+     #signin{
+       background-image: url('/assets/imgs/btnbackground.png');
+         background-size: cover;
+         padding:20px;
+         width:70%;
+         color:white;
+     }
+
+     #signup{
+         padding:20px;
+         width:70%;
+     }
+
+     #mainlogo{
+      width:50%;
+      margin-top:10.7rem;
+     }
+   }
+ 
+}
